@@ -125,3 +125,12 @@ function carlos(occupation, hobbies, status,name, age, country){
 
 var newCarlos = new carlos("developer","coding","single","Carlos",25, "kenya");
 console.log(newCarlos);
+
+// Rolling a dice
+
+const play =(max, min) => Math.trunc(Math.random()*(max - min + 1)) +min;
+    
+console.log(play(6,1));  
+ 
+    
+
